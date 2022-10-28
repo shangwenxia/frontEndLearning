@@ -54,7 +54,8 @@ js基本数据类型
     1.string
         两种办法：a.toString()   String()
             toString只能用于对象，因此null和undefined无法调用
-            String()对于Number, String, Boolean来说会调用底层的toString()方法，对于null和undefined会直接进行转换
+            String()对于Number, String, Boolean来说会调用底层的toString()方法，对于null和undefined会直接进行转换 
+            String(bull) = "null", String(undefined)="undefined"
     2.number
         三种方法：Number(), parseInt(), parseFloat()
             Number()：
